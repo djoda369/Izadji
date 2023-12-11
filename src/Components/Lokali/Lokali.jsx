@@ -10,15 +10,15 @@ export default function Lokali() {
             <p>Izbor od preko 100 kafana, kafića i klubova</p>
           </div>
           <div className="lokali__grid">
-            <img src="../../public/Lokali/Bravado.jpg" />
-            <img src="../../public/Lokali/lagano.jpg" />
-            <img src="../../public/Lokali/plesure.jpg" />
-            <img src="../../public/Lokali/Proces.png" />
-            <img src="../../public/Lokali/Retro.jpg" />
-            <img src="../../public/Lokali/squere.jpg" />
-            <img src="../../public/Lokali/stambolijski.jpg" />
-            <img src="../../public/Lokali/Troy.jpg" />
-            <img src="../../public/Lokali/Vidin.png" />
+            <img src="../../Lokali/Bravado.jpg" />
+            <img src="../../Lokali/lagano.jpg" />
+            <img src="../../Lokali/plesure.jpg" />
+            <img src="../../Lokali/Proces.png" />
+            <img src="../../Lokali/Retro.jpg" />
+            <img src="../../Lokali/squere.jpg" />
+            <img src="../../Lokali/stambolijski.jpg" />
+            <img src="../../Lokali/Troy.jpg" />
+            <img src="../../Lokali/Vidin.png" />
           </div>
         </div>
       </div>

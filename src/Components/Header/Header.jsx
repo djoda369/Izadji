@@ -6,7 +6,7 @@ export default function Header() {
       <div className="container">
         <div className="Header">
           <div className="Header__Text">
-            <img src="../../public/Logo/izadji.png" />
+            <img src="../../Logo/izadji.png" />
             <p>
               Vaša digitalna destinacija za brzu i jednostavnu rezervaciju mesta
               u omiljenim restoranima, kafićima i klubovima!
@@ -14,20 +14,12 @@ export default function Header() {
           </div>{" "}
           <div className="Header__image">
             <img
-              src="../../public/Header/Restoran.jpg"
+              src="../../Header/Restoran.jpg"
               alt="Logo"
               className="kafana"
             />
-            <img
-              src="../../public/Header/klub.jpeg"
-              alt="Logo"
-              className="klub"
-            />
-            <img
-              src="../../public/Header/kafic.jpeg"
-              alt="Logo"
-              className="kafic"
-            />
+            <img src="../../Header/klub.jpeg" alt="Logo" className="klub" />
+            <img src="../../Header/kafic.jpeg" alt="Logo" className="kafic" />
           </div>
         </div>
       </div>

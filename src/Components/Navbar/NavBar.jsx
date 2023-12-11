@@ -13,11 +13,7 @@ export default function NavBar({
       <div className="container">
         <div className="Navbar">
           <div className="Navbar__logo">
-            <img
-              src="../../public/Logo/izadji.png"
-              alt="Logo"
-              onClick={refreshPage}
-            />
+            <img src="../../Logo/izadji.png" alt="Logo" onClick={refreshPage} />
           </div>
           <div className="Navbar__links">
             <p onClick={instructionScroll}>Kako funkcioniše</p>
