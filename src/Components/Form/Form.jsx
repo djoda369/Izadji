@@ -86,7 +86,7 @@ export default function Form() {
             </div>
 
             <div className="image">
-              <img src="../../public/Lokali/form.jpg" alt="Forma" />
+              <img src="../../Lokali/form.jpg" alt="Forma" />
             </div>
           </form>
         </div>
