@@ -1,0 +1,17 @@
+.footer {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  .socials {
+    display: flex;
+    gap: 2rem;
+    img {
+      cursor: pointer;
+    }
+  }
+  p {
+    font-size: 1.8rem;
+  }
+}

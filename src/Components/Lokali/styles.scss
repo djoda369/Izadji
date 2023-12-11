@@ -1,0 +1,42 @@
+.lokali {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 0;
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      color: #fff;
+      font-size: 4.4rem;
+      font-weight: 700;
+      @media (max-width: 960px) {
+        font-size: 3.2rem;
+      }
+    }
+  }
+  &__grid {
+    padding: 10rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    @media (max-width: 700px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    img {
+      @media (max-width: 700px) {
+        width: 30rem;
+        height: 30rem;
+      }
+      width: 20rem;
+      height: 20rem;
+      cursor: pointer;
+      &:hover {
+        scale: 1.2;
+        transition: all 0.2s ease-in-out;
+      }
+    }
+  }
+}

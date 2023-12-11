@@ -1,0 +1,50 @@
+.Navbar {
+  // position: fixed;
+  z-index: 1000;
+  // width: 83.125%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    img {
+      height: 10rem;
+      cursor: pointer;
+    }
+  }
+  &__links {
+    display: flex;
+    gap: 3rem;
+    @media (max-width: 600px) {
+      p {
+        font-size: 1.6rem;
+      }
+    }
+    p {
+      position: relative;
+      color: #c09554;
+      @media (max-width: 600px) {
+        font-size: 1.6rem;
+      }
+
+      font-size: 2.2rem;
+      &:hover {
+        cursor: pointer;
+        color: #fff;
+      }
+      &:last-child::after {
+        display: none;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        right: -1.5rem;
+        top: 0;
+        width: 1px;
+        height: 100%;
+        background-color: #c09554;
+      }
+    }
+  }
+}

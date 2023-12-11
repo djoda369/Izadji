@@ -1,0 +1,29 @@
+.container {
+  max-width: 1596px;
+  margin: 0 auto;
+
+  @media (max-width: 1919px) {
+    max-width: 83.135%;
+  }
+  @media (max-width: 1500px) {
+    max-width: 90%;
+  }
+}
+.black {
+  background-color: #000;
+}
+.gray {
+  background-color: #333;
+}
+.white {
+  background-color: #fff;
+}
+.Title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #c09554;
+}
+.error {
+  color: red;
+  font-size: 2rem;
+}
